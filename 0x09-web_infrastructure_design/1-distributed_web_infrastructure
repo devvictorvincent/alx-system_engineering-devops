@@ -1,0 +1,4 @@
+https://imgur.com/a/Bwp0D2J
+
+This set up introduces a load balancer and an extra server to make it two replica servers to handle users request.
+The load balancer decides which server is free  t handle a specific user request. 
