@@ -1,0 +1,10 @@
+https://imgur.com/a/jGdcgak
+
+This shows a DNS server that helps in resolving the corresponding host ip adress of any domain name, the clients system, as well as a web server, application server, application files and application database.
+
+Immediately hte user types any we address on his or her nrowser the DOmain name system translates it into an ip address, the clients device goes further to establish a http connection with the server.
+
+The web server recieves a request and passes to the application server which handles the logics and decides on data to be sent to the user.
+
+ in this setup the application server can get rsults from the database or sumply serve a static page as the case may be.
+The database on the other hand stores all website data in a way it can be easily retrieved, indexed and searched. databases can assits in dynamic output as on page can request of die
