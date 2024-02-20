@@ -1,5 +1,5 @@
 #!/usr/bin/python3
- """
+"""
     Fetches employee data from an API and prints completed tasks.
 
     Args:
@@ -7,7 +7,7 @@
 
     Returns:
         None
-    """
+"""
 import requests
 import sys
 
@@ -19,7 +19,7 @@ if __name__ == "__main__":
     user_response = requests.get(url + "users/{}".format(employee_id))
     user = user_response.json()
 
-    params = {"userIid": employee_id}
+    params = {"userId": employee_id}
 
     todos_response = requests.get(url + "todos", params=params)
     todos = todos_response.json()
@@ -31,7 +31,7 @@ if __name__ == "__main__":
             completed.append(todo.get("title"))
     print(
             "Employee {} is done with tasks({}/{})".format(
-                user.get("name"),len(completed),len(todos)
+                user.get("name"), len(completed), len(todos)
                 )
         )
 
