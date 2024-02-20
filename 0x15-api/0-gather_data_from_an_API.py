@@ -1,4 +1,13 @@
 #!/usr/bin/python3
+ """
+    Fetches employee data from an API and prints completed tasks.
+
+    Args:
+        employee_id (str): The ID of the employee to fetch data for.
+
+    Returns:
+        None
+    """
 import requests
 import sys
 
