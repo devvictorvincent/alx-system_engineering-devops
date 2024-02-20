@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+"""
+this module gets user info from and api
+and writes to a csv file in a specific
+format
+"""
 
 import csv
 import requests
